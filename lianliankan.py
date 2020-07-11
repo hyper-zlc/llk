@@ -79,7 +79,8 @@ def linkable(m, a, b):
 
 
 # 行之间有无阻碍
-def find_block 1(m, x, y):
+
+def find_block1(m, x, y):
     for i in range(x[1], y[1]):
         if m[x[0]][i] != 0:
             return True
